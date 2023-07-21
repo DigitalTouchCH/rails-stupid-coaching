@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+ h1 {
+  /* Votre style personnalisé ici */
+  color: #636363; /* Couleur rouge */
+  font-size: 32px; /* Taille de police de 32 pixels */
+  font-weight: bold; /* Police en gras */
+  /* ... autres styles personnalisés ... */
+}
+
+
+.bd-callout {
+  padding: 1.25rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border: 1px solid #e9ecef;
+  border-left-width: .25rem;
+  border-radius: .25rem
+}
+
+.bd-callout h4 {
+  margin-bottom: .25rem
+}
+
+.bd-callout p:last-child {
+  margin-bottom: 0
+}
+
+.bd-callout code {
+  border-radius: .25rem
+}
+
+.bd-callout-ask {
+  border-left-color: #707070
+}
+
+.bd-callout-answer {
+  border-left-color: #00CED1
+}
+
+.link {
+  color: #00CED1;
+  text-decoration: none;
+}

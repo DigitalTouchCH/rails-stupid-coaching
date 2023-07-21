@@ -1,0 +1,32 @@
+<div class="container">
+
+  <div class="row mt-4 mb-3">
+    <div class="col">
+      <h1>Stupid Coaching</h1>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+      <div class="col">
+          <div class="bd-callout bd-callout-ask">
+            <strong>You :</strong> <%= @question %>
+         </div>
+      </div>
+  </div>
+
+  <div class="row mb-3">
+      <div class="col">
+         <div class="bd-callout bd-callout-answer">
+            <strong>Your coach :</strong> <%= @answer %>
+         </div>
+      </div>
+  </div>
+
+  <div class="row mb-3">
+      <div class="col">
+          <div>
+            <%= link_to "back to ask's page", ask_path, class:"link" %>
+          </div>
+      </div>
+  </div>
+</div>
